@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Customer Churn Segmentation",
+    "summary": "Cohort analysis and survival curves to find churn drivers across plans.",
+    "domain": "Retention",
+    "stack": [
+      "Python",
+      "pandas",
+      "lifelines"
+    ],
+    "dataset": "Telco churn (Kaggle)",
+    "impact": "Reduced churn risk by 8% on high-value cohorts (simulated)",
+    "metrics": [
+      "Churn Rate",
+      "LTV",
+      "Survival Prob."
+    ],
+    "repo": "https://github.com/your-username/churn-segmentation"
+  },
+  {
+    "title": "A/B Test Analyzer",
+    "summary": "Power calculator and CUPED uplift dashboard for rapid experiments.",
+    "domain": "Experimentation",
+    "stack": [
+      "Python",
+      "Dash"
+    ],
+    "dataset": "Synthetic experiments",
+    "impact": "Cut sample size by 15% via CUPED (demo)",
+    "metrics": [
+      "p-value",
+      "MDE",
+      "Uplift"
+    ],
+    "repo": "https://github.com/your-username/ab-test-analyzer"
+  },
+  {
+    "title": "Sales Forecast with Prophet",
+    "summary": "Lightweight forecasting pipeline with holidays and promos.",
+    "domain": "Forecasting",
+    "stack": [
+      "Python",
+      "Prophet"
+    ],
+    "dataset": "Retail sales (simulated)",
+    "impact": "MAPE ~9.2% on validation",
+    "metrics": [
+      "MAPE",
+      "RMSE"
+    ],
+    "repo": "https://github.com/your-username/retail-forecast"
+  },
+  {
+    "title": "SQL: Product Funnel Metrics",
+    "summary": "DBT-style models to compute activation \u2192 retention funnel.",
+    "domain": "Product",
+    "stack": [
+      "SQL",
+      "dbt"
+    ],
+    "dataset": "Event logs (simulated)",
+    "impact": "Surfaced 12% drop-off at onboarding step 3",
+    "metrics": [
+      "Activation",
+      "DAU/WAU",
+      "7D Retention"
+    ],
+    "repo": "https://github.com/your-username/product-funnel-sql"
+  },
+  {
+    "title": "Power BI: Executive KPI Deck",
+    "summary": "Interactive scorecards and drill-through for C-level reviews.",
+    "domain": "BI",
+    "stack": [
+      "Power BI"
+    ],
+    "dataset": "Company KPIs (simulated)",
+    "impact": "Cut reporting time by 6 hrs/week",
+    "metrics": [
+      "Revenue",
+      "Margin",
+      "NPS"
+    ],
+    "caseStudyUrl": "https://your-site.example.com/kpi-deck"
+  },
+  {
+    "title": "Looker Studio: Marketing ROAS",
+    "summary": "Blended sources and channel ROAS with attribution notes.",
+    "domain": "Marketing",
+    "stack": [
+      "Looker Studio"
+    ],
+    "dataset": "GA4 + Ads (simulated)",
+    "impact": "Revealed 2x ROAS on branded search",
+    "metrics": [
+      "ROAS",
+      "CPA",
+      "AOV"
+    ],
+    "caseStudyUrl": "https://your-site.example.com/roas-dashboard"
+  }
+]
