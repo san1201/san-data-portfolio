@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sanika | Data Analyst Portfolio</title>
-  <meta name="description" content="Portfolio of Sanika — Data Analyst. Projects, skills, experience, and contact." />
+  <title>Sanika Morankar | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Sanika Morankar — Data Analyst. Projects, skills, experience, and contact." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -31,7 +31,6 @@
     .nav a.btn{ padding:10px 14px; border:1px solid rgba(255,255,255,.1); border-radius: 999px; transition: .2s ease; }
     .nav a.btn:hover{ border-color: var(--brand); box-shadow: 0 0 0 6px var(--ring); }
 
-    /* HERO */
     .hero{ padding: 72px 0 28px; display:grid; grid-template-columns: 1.3fr .7fr; gap: 36px; align-items:center; }
     @media (max-width: 880px){ .hero{ grid-template-columns: 1fr; padding-top:46px; } }
     .pill{ display:inline-flex; align-items:center; gap:.5rem; border:1px solid rgba(255,255,255,.12); color: var(--muted); border-radius:999px; padding:8px 12px; font-size: 12px; }
@@ -54,19 +53,16 @@
     .section h2{ margin:0 0 14px; font-size: clamp(22px, 3vw, 28px); }
     .muted{ color: var(--muted); }
 
-    /* GRID */
     .grid{ display:grid; gap:18px; grid-template-columns: repeat(3, 1fr); }
     @media (max-width: 980px){ .grid{ grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 640px){ .grid{ grid-template-columns: 1fr; } }
 
-    /* PROJECT CARD */
     .project{ padding:18px; display:grid; gap:10px; }
     .project h3{ margin:0; font-size: 18px; }
     .tagrow{ display:flex; gap:8px; flex-wrap: wrap; }
     .tag{ font-size: 11px; padding:6px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.12); color: var(--muted); }
     .project a{ display:inline-block; margin-top:6px; font-weight:600; color: var(--brand-2); }
 
-    /* EXPERIENCE */
     .timeline{ position:relative; }
     .timeline::before{ content:""; position:absolute; left:14px; top:0; bottom:0; width:2px; background: linear-gradient(var(--brand), transparent); opacity:.4; }
     .role{ position:relative; padding-left:42px; margin: 18px 0; }
@@ -80,7 +76,7 @@
 <body>
   <nav class="nav">
     <div class="container inner">
-      <div class="brand"><span class="dot"></span> Sanika • Data Analyst</div>
+      <div class="brand"><span class="dot"></span> Sanika Morankar • Data Analyst</div>
       <div style="display:flex; gap:10px; align-items:center;">
         <a class="btn" href="#projects">Projects</a>
         <a class="btn" href="#experience">Experience</a>
@@ -93,9 +89,8 @@
   <header class="container hero">
     <div>
       <span class="pill"><span class="spark"></span> Open to freelance & collaborations</span>
-      <h1>Hi, I’m <span style="background:linear-gradient(135deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color:transparent;">Sanika</span>.<br/>I turn messy data into clear decisions.</h1>
-      <p class="lead">Data Analyst with strengths in SQL, Python, Excel, dashboards, and storytelling. I love building tidy pipelines and postable insights for marketing, ops, and product teams.
-      <!-- TODO: Replace this sentence with your own one‑line value. --></p>
+      <h1>Hi, I’m <span style="background:linear-gradient(135deg,var(--brand),var(--brand-2)); -webkit-background-clip:text; background-clip:text; color:transparent;">Sanika Morankar</span>.<br/>I turn messy data into clear decisions.</h1>
+      <p class="lead">Versatile Data Analyst & Power BI Specialist with strong expertise in SQL, AWS, Snowflake, and AI prompt engineering. Experienced in fintech and consulting projects, I transform raw datasets into actionable insights that drive growth, optimize operations, and support compliance.</p>
       <div class="cta">
         <a class="btn btn-primary" href="#projects">View projects</a>
         <a class="btn btn-ghost" href="#contact">Contact me</a>
@@ -103,183 +98,134 @@
       <div class="statbar">
         <span class="chip">SQL • Python • Excel</span>
         <span class="chip">Power BI / Tableau</span>
-        <span class="chip">A/B testing</span>
-        <span class="chip">ETL & automation</span>
+        <span class="chip">AWS • Snowflake</span>
+        <span class="chip">Prompt Engineering</span>
       </div>
     </div>
     <aside class="card aside">
       <div>
         <h3 style="margin:0 0 6px; font-size:16px;">Highlights</h3>
         <ul class="muted" style="margin:0; padding-left:18px; line-height:1.6;">
-          <li><!-- TODO: Replace:  -->Improved campaign ROAS by 18% using cohort analysis</li>
-          <li>Built automated KPI deck saving 3 hrs/week</li>
-          <li>Cleaned 1M+ row CRM dataset for churn model</li>
+          <li>Designed executive dashboards tracking global cross-border payments.</li>
+          <li>Improved reporting efficiency with AWS Athena, S3, and Glue pipelines.</li>
+          <li>Introduced AI-driven reporting workflows, reducing client reporting time by 30%.</li>
         </ul>
       </div>
       <div>
         <h3 style="margin:0 0 6px; font-size:16px;">Currently</h3>
-        <p class="muted" style="margin:0;">Learning Korean • Exploring event-tech & experiential analytics</p>
+        <p class="muted" style="margin:0;">Data Analyst at VertoFx • Learning Korean • Exploring event-tech analytics</p>
       </div>
     </aside>
   </header>
 
   <main class="container">
-    <!-- SKILLS -->
     <section id="skills" class="section">
       <h2>Skills</h2>
-      <p class="muted">SQL (CTEs, window functions), Python (pandas, numpy, matplotlib), Excel (Power Query, pivots), BI (Power BI/Tableau), APIs, Web scraping, Experimental design, Statistics, Data quality, Documentation.</p>
+      <p class="muted">Power BI, Tableau, DAX, SQL, AWS (Athena, S3, Glue), Snowflake, Python (Pandas, NumPy, Matplotlib), Excel (Pivot Tables, Macros), Statistical Analysis, ETL pipelines, Data Warehousing, AI Prompt Engineering, Stakeholder Collaboration, Data Storytelling.</p>
     </section>
 
-    <!-- PROJECTS -->
     <section id="projects" class="section">
       <h2>Projects</h2>
-      <p class="muted">A few selected works. Filter by tag:</p>
-      <div class="cta" id="filters"></div>
-      <div class="grid" id="projectGrid" aria-live="polite"></div>
+      <div class="grid">
+        <div class="card project">
+          <h3>Cross-Border Payments Analysis</h3>
+          <p class="muted">Delivered insights on transaction flows, helping leadership identify growth markets and compliance risks.</p>
+          <div class="tagrow"><span class="tag">Fintech</span><span class="tag">SQL</span><span class="tag">Power BI</span></div>
+        </div>
+        <div class="card project">
+          <h3>Healthcare Audience Analytics</h3>
+          <p class="muted">Built SQL and Power BI pipelines for analyzing digital engagement data, improving campaign attribution.</p>
+          <div class="tagrow"><span class="tag">Healthcare</span><span class="tag">Analytics</span><span class="tag">Power BI</span></div>
+        </div>
+        <div class="card project">
+          <h3>Logistics Data Optimization</h3>
+          <p class="muted">Designed reporting dashboards to track supply chain KPIs, reducing reporting time for operations teams.</p>
+          <div class="tagrow"><span class="tag">Logistics</span><span class="tag">ETL</span><span class="tag">Dashboards</span></div>
+        </div>
+        <div class="card project">
+          <h3>AI-Driven Reporting Workflows</h3>
+          <p class="muted">Implemented prompt engineering workflows to automate ad-hoc queries, improving decision-making speed.</p>
+          <div class="tagrow"><span class="tag">AI</span><span class="tag">Automation</span><span class="tag">Analytics</span></div>
+        </div>
+      </div>
     </section>
 
-    <!-- EXPERIENCE -->
     <section id="experience" class="section">
       <h2>Experience</h2>
-      <div class="timeline" id="exp">
+      <div class="timeline">
         <div class="role">
-          <h3>Data Analyst — <span class="muted">Company Name</span></h3>
-          <div class="muted">MM YYYY – Present • City</div>
+          <h3>Data Analyst — <span class="muted">VertoFx</span></h3>
+          <div class="muted">Apr 2024 – Present • Remote</div>
           <ul class="muted" style="line-height:1.6;">
-            <li><!-- TODO: bullet from resume -->Built automated lead-scoring model; increased MQL‑to‑SQL by 12%.</li>
-            <li>Designed exec dashboard (Power BI) with 20+ KPIs; reduced weekly reporting time by 70%.</li>
+            <li>Designed executive-level Power BI dashboards for transactions and adoption metrics.</li>
+            <li>Developed AWS Athena, S3, and Glue pipelines for scalable reporting.</li>
+            <li>Partnered with compliance teams for fraud detection dashboards.</li>
+            <li>Applied AI prompt engineering to accelerate stakeholder insights.</li>
           </ul>
         </div>
         <div class="role">
-          <h3>Analyst Intern — <span class="muted">Company Name</span></h3>
-          <div class="muted">MM YYYY – MM YYYY • City</div>
+          <h3>Independent Data Consultant — <span class="muted">Contract Projects</span></h3>
+          <div class="muted">Aug 2023 – Mar 2024 • Remote</div>
           <ul class="muted" style="line-height:1.6;">
-            <li>Cleaned and joined 15 CSV sources; built churn cohorts in SQL.</li>
-            <li>Presented insights deck to marketing leadership.</li>
+            <li>Built SQL pipelines and Power BI dashboards for startups and SMEs.</li>
+            <li>Cut client reporting time by 30% with AI-driven workflows.</li>
+            <li>Delivered data stories that influenced strategic decisions.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <h3>Data Science Trainee — <span class="muted">Carnot Technologies</span></h3>
+          <div class="muted">Jan 2021 – Feb 2021 • Pune</div>
+          <ul class="muted" style="line-height:1.6;">
+            <li>Created visualization dashboards for product performance analysis.</li>
+            <li>Prepared data and evaluated ML models to support R&D.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <h3>Engineer Trainee — <span class="muted">Larsen & Toubro</span></h3>
+          <div class="muted">Aug 2019 – Dec 2019 • Mumbai</div>
+          <ul class="muted" style="line-height:1.6;">
+            <li>Supported automation and data logging in manufacturing operations.</li>
+            <li>Collaborated on PLC programming and troubleshooting systems.</li>
+          </ul>
+        </div>
+        <div class="role">
+          <h3>Research Assistant — <span class="muted">KIST, Seoul</span></h3>
+          <div class="muted">Jun 2018 – Jul 2018 • Seoul</div>
+          <ul class="muted" style="line-height:1.6;">
+            <li>Conducted applied research on Smart Highways and Piezoelectric materials.</li>
+            <li>Supported innovation reporting and experimental analysis.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- EDUCATION & CERTS -->
     <section class="section">
       <h2>Education & Certifications</h2>
       <div class="grid">
         <div class="card" style="padding:16px;">
-          <h3 style="margin:0 0 6px; font-size:18px;">Degree — University</h3>
-          <div class="muted">Major • YYYY</div>
+          <h3>M.Sc. Data Science</h3>
+          <div class="muted">University of Essex, UK • 2021 – 2022</div>
         </div>
         <div class="card" style="padding:16px;">
-          <h3 style="margin:0 0 6px; font-size:18px;">Certification</h3>
-          <div class="muted">Issuer • YYYY</div>
+          <h3>B.Tech Electronics Engineering (Honors in IoT)</h3>
+          <div class="muted">Vishwakarma Institute of Technology, India • 2016 – 2020</div>
         </div>
         <div class="card" style="padding:16px;">
-          <h3 style="margin:0 0 6px; font-size:18px;">Workshops</h3>
-          <div class="muted">A/B testing • SQL performance • Data storytelling</div>
+          <h3>Certifications & Workshops</h3>
+          <div class="muted">Power BI • Tableau • SQL • AI Prompt Engineering • Data Storytelling</div>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact" class="section">
       <h2>Contact</h2>
-      <p class="muted">Reach out for freelance projects, collaborations, or a friendly chat.</p>
+      <p class="muted">Reach out for freelance projects, collaborations, or data analytics opportunities.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="mailto:your.email@example.com">Email</a>
+        <a class="btn btn-primary" href="mailto:sanimorankar@gmail.com">Email</a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a class="btn btn-ghost" href="https://github.com/san1201" target="_blank" rel="noreferrer">GitHub</a>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">© <span id="year"></span> Sanika — Data Analyst • Built with ♥ on GitHub Pages</div>
-  </footer>
-
-  <script>
-    // YEAR
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // ---- PROJECTS ----
-    // This template tries to load /data/projects.json. Example schema below.
-    const fallbackProjects = [
-      {
-        title: "Sales KPI Dashboard",
-        summary: "Power BI dashboard for weekly executive review across regions and SKUs.",
-        tags: ["power-bi","dashboard","dax"],
-        link: "#",
-      },
-      {
-        title: "A/B Test Evaluator",
-        summary: "Python tool to validate experiments (power, sample size, CUPED).",
-        tags: ["python","statistics","experimentation"],
-        link: "#",
-      },
-      {
-        title: "SQL Cohort Retention",
-        summary: "CTE + window functions to compute monthly retention for an app.",
-        tags: ["sql","analytics"],
-        link: "#",
-      },
-    ];
-
-    const TAG_ORDER = ["sql","python","power-bi","tableau","excel","dashboard","etl","statistics","experimentation","viz","automation"];
-
-    async function loadProjects(){
-      try{
-        const res = await fetch('data/projects.json', {cache:'no-store'});
-        if(!res.ok) throw new Error('no file');
-        const json = await res.json();
-        renderProjects(json.projects || json); // supports {projects:[...]} OR [...]
-      }catch(e){
-        renderProjects(fallbackProjects);
-      }
-    }
-
-    function renderProjects(projects){
-      const allTags = [...new Set(projects.flatMap(p => p.tags||[]))];
-      const filters = document.getElementById('filters');
-      const grid = document.getElementById('projectGrid');
-
-      let active = 'all';
-      function draw(){
-        grid.innerHTML = '';
-        projects
-          .filter(p => active==='all' || (p.tags||[]).includes(active))
-          .forEach(p => {
-            const card = document.createElement('article');
-            card.className = 'card project';
-            card.innerHTML = `
-              <h3>${p.title}</h3>
-              <p class="muted">${p.summary||''}</p>
-              <div class="tagrow">${(p.tags||[]).map(t=>`<span class='tag'>${t}</span>`).join('')}</div>
-              ${p.link ? `<a href='${p.link}' target='_blank' rel='noreferrer'>View project →</a>`: ''}
-            `;
-            grid.appendChild(card);
-          });
-      }
-
-      // FILTER BUTTONS
-      const tagsSorted = allTags.sort((a,b)=> TAG_ORDER.indexOf(a) - TAG_ORDER.indexOf(b));
-      filters.innerHTML = '';
-      const allBtn = document.createElement('button');
-      allBtn.className = 'btn btn-ghost';
-      allBtn.textContent = 'All';
-      allBtn.onclick = () => {active='all'; draw();};
-      filters.appendChild(allBtn);
-
-      tagsSorted.forEach(tag=>{
-        const btn = document.createElement('button');
-        btn.className = 'btn btn-ghost';
-        btn.textContent = tag;
-        btn.onclick = () => {active = tag; draw();};
-        filters.appendChild(btn);
-      });
-
-      draw();
-    }
-
-    loadProjects();
-  </script>
-</body>
-</html>
+  <footer
