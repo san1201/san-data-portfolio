@@ -1,102 +1,68 @@
 [
   {
-    "title": "Customer Churn Segmentation",
-    "summary": "Cohort analysis and survival curves to find churn drivers across plans.",
-    "domain": "Retention",
+    "title": "Fintech Risk & Compliance Dashboard",
+    "summary": "Built Power BI dashboards integrating SQL, Snowflake, and AWS pipelines to track KYC/AML compliance, fraud risk, and customer onboarding efficiency.",
+    "domain": "Fintech Analytics",
     "stack": [
-      "Python",
-      "pandas",
-      "lifelines"
+      "Power BI",
+      "SQL",
+      "AWS"
     ],
-    "dataset": "Telco churn (Kaggle)",
-    "impact": "Reduced churn risk by 8% on high-value cohorts (simulated)",
+    "impact": "Improved compliance monitoring and reduced manual checks by 30%.",
     "metrics": [
-      "Churn Rate",
-      "LTV",
-      "Survival Prob."
+      "Fraud Risk",
+      "Onboarding Efficiency",
+      "KYC/AML Compliance"
     ],
-    "repo": "https://github.com/your-username/churn-segmentation"
+    "caseStudyUrl": "https://github.com/san1201/fintech-risk-dashboard"
   },
   {
-    "title": "A/B Test Analyzer",
-    "summary": "Power calculator and CUPED uplift dashboard for rapid experiments.",
-    "domain": "Experimentation",
-    "stack": [
-      "Python",
-      "Dash"
-    ],
-    "dataset": "Synthetic experiments",
-    "impact": "Cut sample size by 15% via CUPED (demo)",
-    "metrics": [
-      "p-value",
-      "MDE",
-      "Uplift"
-    ],
-    "repo": "https://github.com/your-username/ab-test-analyzer"
-  },
-  {
-    "title": "Sales Forecast with Prophet",
-    "summary": "Lightweight forecasting pipeline with holidays and promos.",
-    "domain": "Forecasting",
-    "stack": [
-      "Python",
-      "Prophet"
-    ],
-    "dataset": "Retail sales (simulated)",
-    "impact": "MAPE ~9.2% on validation",
-    "metrics": [
-      "MAPE",
-      "RMSE"
-    ],
-    "repo": "https://github.com/your-username/retail-forecast"
-  },
-  {
-    "title": "SQL: Product Funnel Metrics",
-    "summary": "DBT-style models to compute activation \u2192 retention funnel.",
-    "domain": "Product",
+    "title": "Credit Card Spend Optimization",
+    "summary": "Analyzed 1M+ customer transactions to uncover trends in travel, food, and e-commerce. Delivered insights that shaped credit card rewards and discount strategies.",
+    "domain": "Customer Insights",
     "stack": [
       "SQL",
-      "dbt"
+      "Python",
+      "Data Visualization"
     ],
-    "dataset": "Event logs (simulated)",
-    "impact": "Surfaced 12% drop-off at onboarding step 3",
+    "impact": "Boosted targeted campaign effectiveness by 15%.",
     "metrics": [
-      "Activation",
-      "DAU/WAU",
-      "7D Retention"
+      "Spend Categories",
+      "Rewards Utilization",
+      "Campaign ROI"
     ],
-    "repo": "https://github.com/your-username/product-funnel-sql"
+    "caseStudyUrl": "https://github.com/san1201/credit-card-spend"
   },
   {
-    "title": "Power BI: Executive KPI Deck",
-    "summary": "Interactive scorecards and drill-through for C-level reviews.",
-    "domain": "BI",
+    "title": "Insurance Claims Analytics",
+    "summary": "Designed dashboards to monitor claim settlement times and fraud detection triggers. Automated reporting reduced manual processing by 40%.",
+    "domain": "Insurance Analytics",
     "stack": [
-      "Power BI"
+      "Power BI",
+      "SQL"
     ],
-    "dataset": "Company KPIs (simulated)",
-    "impact": "Cut reporting time by 6 hrs/week",
+    "impact": "Enhanced visibility into claims lifecycle and fraud risk indicators.",
     "metrics": [
-      "Revenue",
-      "Margin",
-      "NPS"
+      "Settlement Time",
+      "Fraud Detection Rate",
+      "Processing Efficiency"
     ],
-    "caseStudyUrl": "https://your-site.example.com/kpi-deck"
+    "caseStudyUrl": "https://github.com/san1201/insurance-claims-analytics"
   },
   {
-    "title": "Looker Studio: Marketing ROAS",
-    "summary": "Blended sources and channel ROAS with attribution notes.",
-    "domain": "Marketing",
+    "title": "AI Prompt Engineering Playbook",
+    "summary": "Created reusable AI prompt templates for consulting teams to streamline data storytelling, compliance monitoring, and report drafting workflows.",
+    "domain": "AI & Automation",
     "stack": [
-      "Looker Studio"
+      "Prompt Engineering",
+      "Generative AI"
     ],
-    "dataset": "GA4 + Ads (simulated)",
-    "impact": "Revealed 2x ROAS on branded search",
+    "impact": "Cut reporting and analysis drafting time by 25%.",
     "metrics": [
-      "ROAS",
-      "CPA",
-      "AOV"
+      "Report Draft Speed",
+      "Automation Coverage",
+      "Analyst Productivity"
     ],
-    "caseStudyUrl": "https://your-site.example.com/roas-dashboard"
+    "caseStudyUrl": "https://github.com/san1201/ai-prompt-playbook"
   }
 ]
