@@ -1,1 +1,1 @@
-# san-data-portfolio
+# sanika-data-portfolio
